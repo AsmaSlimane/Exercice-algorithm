@@ -1,0 +1,16 @@
+ALGORITHM algorithm_name
+VAR
+    T:INTEGER
+BEGIN
+    write("la temperature est:");
+    read(T);
+    IF (T<=0) THEN
+        write("Il fait très froid !");
+    ELSE_IF (T>=1 and T<=20) THEN
+        write("Il fait frais.");
+    ELSE_IF (T>=21 and T<=30) THEN
+        write("Il fait bon.");
+    ELSE
+        write("Il fait chaud !");
+    END_IF
+END
